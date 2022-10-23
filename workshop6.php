@@ -21,7 +21,7 @@
                 echo "Mobile: ".$row["mobile"]."<br>";
                 echo "Email : ".$row["email"]."<br>";
         ?>    
-                <a href= '#' onclick=confirmDelete("<?=$row["username"]?>")>ลบ</a>
+                <a href='#' onclick='confirmDelete("<?= $row["username"]?>')>ลบ</a>
                 <?php echo "<hr>\n"; 
             }?>
     
